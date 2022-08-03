@@ -1,0 +1,217 @@
+body{
+		font-family: cursive;
+	}
+
+#title{
+    background-color: pink;
+    color: purple;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#account{
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+    width: 100%;   
+}
+
+#navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:  stretch;
+    height: 40px;
+}
+
+
+#cartBtn svg {
+    width: 25px;
+    height: 25px;
+    
+  }
+
+  #cartBtn{
+    background-color: inherit;
+    border: none;
+    margin: 0;
+    top: 50%;
+    float:right;  
+  }
+
+  #accountBtn{
+    background-color: inherit;
+    border: none;
+    margin: 0;
+    top: 50%;
+  }
+
+  #accountBtn svg {
+    width: 25px;
+    height: 25px;
+    
+  }
+
+  #Shrekad{
+    align-content: center;
+  }
+
+/* Links for product catalog */
+#catalog{
+  text-align: center;
+  
+}
+#productInfo{
+	display: block;
+	overflow: auto;
+    background-color: pink;
+	text-align: center;
+    height: 100vh;
+  border: 3px solid purple;
+}
+
+tr {
+  background-color: pink;
+  border: 3px solid purple;
+  
+}
+td, th {
+  padding: 5px;
+  text-align: left;
+  border: 3px solid purple;
+}
+
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  border: 3px solid purple;
+
+}
+
+
+.center{
+ margin: auto;
+  width:50%;
+ 	padding: 10px;
+  text-align:center;
+}
+
+.promos{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.content a{
+    display: table;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+}
+.content{
+	display: block;
+	overflow: auto;
+    background-color: pink;
+	
+    height: 100vh;
+  border: 3px solid purple;
+}
+
+#logoOB{
+  visibility: hidden;
+  display:none;
+  
+}
+#logoRG{
+  visibility: hidden;
+  display:none;
+}
+#logoPP{
+	visibility: visible;
+  	display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer{
+    width: 100%;
+      border: 5px;
+      background-color: purple;
+      color: pink;
+      border-color: pink;
+}
+
+#footer a{
+    color: pink;
+}
+
+#info{
+    background-color: pink;
+      color: purple;
+      width: 100%
+      
+}
+
+#info h2{
+    width: 75%;
+      display: block;
+      margin: auto;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.add2cart {
+    background-color:#44c767;
+    border-radius:23px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 6px #2f6627;
+}
+.add2cart:hover {
+    background-color:#5cbf2a;
+}
+.add2cart:active {
+    position:relative;
+    top:1px;
+}

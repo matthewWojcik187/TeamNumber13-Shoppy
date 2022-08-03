@@ -1,0 +1,215 @@
+body{
+		font-family: cursive;
+	}
+
+#title{
+    background-color: #F95700FF;
+    color: #00A4CCFF;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+
+#account{
+    background-color: #00A4CCFF;
+    color: white;
+    font-size: 30px;
+    width: 100%;   
+}
+
+#navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:  stretch;
+    height: 40px;
+}
+
+
+#cartBtn svg {
+    width: 25px;
+    height: 25px;
+    
+  }
+
+  #cartBtn{
+    background-color: inherit;
+    border: none;
+    margin: 0;
+    top: 50%;
+    float:right;  
+  }
+
+  #accountBtn{
+    background-color: inherit;
+    border: none;
+    margin: 0;
+    top: 50%;
+  }
+
+  #accountBtn svg {
+    width: 25px;
+    height: 25px;
+    
+  }
+
+  #Shrekad{
+    align-content: center;
+  }
+
+/* Links for product catalog */
+#catalog{
+  text-align: center;
+  
+}
+#productInfo{
+	display: block;
+	overflow: auto;
+    background-color: #F95700FF;
+	text-align: center;
+    height: 100vh;
+  border: 3px solid #00A4CCFF;
+}
+
+tr {
+  background-color: rgb(249,87,0);
+  border: 3px solid #00A4CCFF;
+  
+}
+td, th {
+  padding: 5px;
+  text-align: left;
+  border: 3px solid #00A4CCFF;
+}
+
+td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  border: 3px solid #00A4CCFF;
+
+}
+
+
+.center{
+ margin: auto;
+  width:50%;
+ 	padding: 10px;
+  text-align:center;
+}
+
+.promos{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.content a{
+    display: table;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align:center;
+}
+
+.content{
+	display: block;
+	overflow: auto;
+    background-color: #F95700FF;
+    height: 100vh;
+  border: 3px solid #00A4CCFF;
+}
+#logoOB{
+  visibility: visible;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#logoRG{
+  visibility: hidden;
+  display:none;
+}
+#logoPP{
+	visibility: hidden;
+  	display:none;
+}
+#footer{
+    width: 100%;
+      border: 5px;
+      background-color: #00A4CCFF;
+      color: #F95700FF;
+      border-color: #F95700FF;
+}
+
+#footer a{
+    color: #F95700FF;
+}
+
+#info{
+    background-color: #F95700FF;
+      color: #00A4CCFF;
+      width: 100%;
+      
+}
+
+#info h2{
+    width: 75%;
+      display: block;
+      margin: auto;
+      text-align: center;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  
+  padding: 3px;
+}
+
+.add2cart {
+    background-color:#44c767;
+    border-radius:23px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 6px #2f6627;
+}
+.add2cart:hover {
+    background-color:#5cbf2a;
+}
+.add2cart:active {
+    position:relative;
+    top:1px;
+}
