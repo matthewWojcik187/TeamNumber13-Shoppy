@@ -1,4 +1,5 @@
 <?php
+// Login information
 session_start();
 $servername = "localhost";
 $username = "wojcikm_Shoppy";
