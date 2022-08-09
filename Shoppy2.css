@@ -1,22 +1,41 @@
-body{
-		font-family: cursive;
-	}
-
+/* Navigation bar style */
+.navbar {
+  background-color:  #BB3F3F;
+  margin: 0px;
+  border-radius: 0;
+}
+    
+/* Remove the jumbotron's default bottom margin */ 
+.jumbotron {
+   background-color: #749f64;
+   margin-bottom: 0;
+}
+   
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #749f64;
+    font-size: 30px;
+}
+/* Style for all font */
+body {
+  font-family: Arial, sans-serif;
+}
+/*Style for title color */
 #title{
-    background-color: green;
+    background-color: #749f64;
     color: red;
     height: 100px;
     font-size: 30px;
     text-align: center;
 }
-
+/* Style for account */
 #account{
-    background-color: red;
+    background-color:  #BB3F3F;
     color: white;
     font-size: 30px;
     width: 100%;   
 }
-
+/* Navigation bar style */
 #navigation{
     display: flex;
     flex-direction: row;
@@ -24,13 +43,6 @@ body{
     align-items:  stretch;
     height: 40px;
 }
-
-
-#cartBtn svg {
-    width: 25px;
-    height: 25px;
-    
-  }
 
   #cartBtn{
     background-color: inherit;
@@ -47,11 +59,6 @@ body{
     top: 50%;
   }
 
-  #accountBtn svg {
-    width: 25px;
-    height: 25px;
-    
-  }
 
   #Shrekad{
     align-content: center;
@@ -62,31 +69,32 @@ body{
   text-align: center;
   
 }
+/* product info display style */
 #productInfo{
 	display: block;
 	overflow: auto;
-    background-color: green;
+    background-color: #749f64;
 	text-align: center;
     height: 100vh;
-  border: 3px solid red;
+  border: 3px solid  #BB3F3F;
 }
-
+/* Table styles */
 tr {
-  background-color: green;
-  border: 3px solid red;
+  background-color: #749f64;
+  border: 3px solid  #BB3F3F;
   
 }
 td, th {
   padding: 5px;
   text-align: left;
-  border: 3px solid red;
+  border: 3px solid #BB3F3F;
 }
 
 td img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-  border: 3px solid red;
+  border: 3px solid #BB3F3F;
 
 }
 
@@ -97,7 +105,7 @@ td img{
  	padding: 10px;
   text-align:center;
 }
-
+/* Styling for promotions slides */
 .promos{
   max-width: 1000px;
   position: relative;
@@ -127,22 +135,24 @@ td img{
   from {opacity: .4}
   to {opacity: 1}
 }
-
+/* Content styling */
 .content a{
     display: table;
     position: relative;
     height: 100%;
     width: 100%;
     text-align:center;
+  
 }
 
 .content{
 	display: block;
 	overflow: auto;
-    background-color: green;
+    background-color: #749f64;
     height: 100vh;
-  border: 3px solid red;
+  border: 3px solid #BB3F3F;
 }
+/* Logo styling */
 #logoOB{
   visibility: hidden;
   display:none;
@@ -157,31 +167,41 @@ td img{
 	visibility: hidden;
   	display:none;
 }
+/* footer styling */
 #footer{
     width: 100%;
       border: 5px;
-      background-color: red;
-      color: green;
-      border-color: green;
+      background-color: #BB3F3F;
+      border-color: #749f64;
 }
 
 #footer a{
-    color: green;
+    color: black;
 }
+
+a{
+	color: #BB3F3F;
+}
+
+button{
+	background-color: #BB3F3F;
+  color: black;
+}
+/* page info styling */
 #info{
-    background-color: green;
-      color: red;
+    background-color: #749f64;
+      color: #BB3F3F;
       width: 100%
       
 }
-
+/* h2 customization */
 #info h2{
     width: 75%;
       display: block;
       margin: auto;
   text-align: center;
 }
-
+/*Display styling */
 .row {
   display: flex;
 }
@@ -190,7 +210,7 @@ td img{
   flex: 33.33%;
   padding: 5px;
 }
-
+/* Cart button styles */
 .add2cart {
     background-color:#44c767;
     border-radius:23px;

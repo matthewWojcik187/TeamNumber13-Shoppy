@@ -1,22 +1,43 @@
-body{
-		font-family: cursive;
-	}
+/* Navigation bar style */
+.navbar {
+  background-color: #00A4CCFF;
+  margin: 0px;
+  border-radius: 0;
+}
+    
+/* Remove the jumbotron's default bottom margin */ 
+.jumbotron {
+   background-color: #DB804E;
+   margin-bottom: 0;
+}
+   
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #00A4CCFF;
+   font-size: 30px;
+}
 
+/* Style for all font */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/*Style for title color */
 #title{
-    background-color: #F95700FF;
+    background-color: #DB804E;
     color: #00A4CCFF;
     height: 100px;
     font-size: 30px;
     text-align: center;
 }
-
+/* Style for account */
 #account{
     background-color: #00A4CCFF;
     color: white;
     font-size: 30px;
     width: 100%;   
 }
-
+/* Navigation bar style */
 #navigation{
     display: flex;
     flex-direction: row;
@@ -26,53 +47,42 @@ body{
 }
 
 
-#cartBtn svg {
-    width: 25px;
-    height: 25px;
-    
-  }
-
-  #cartBtn{
+#cartBtn{
     background-color: inherit;
     border: none;
     margin: 0;
     top: 50%;
     float:right;  
-  }
+}
 
   #accountBtn{
     background-color: inherit;
     border: none;
     margin: 0;
     top: 50%;
-  }
+}
 
-  #accountBtn svg {
-    width: 25px;
-    height: 25px;
-    
-  }
-
-  #Shrekad{
+#Shrekad{
     align-content: center;
-  }
+}
 
 /* Links for product catalog */
 #catalog{
   text-align: center;
   
 }
+/* product info display style */
 #productInfo{
 	display: block;
 	overflow: auto;
-    background-color: #F95700FF;
+    background-color: #DB804E;
 	text-align: center;
     height: 100vh;
   border: 3px solid #00A4CCFF;
 }
-
+/* Table styles */
 tr {
-  background-color: rgb(249,87,0);
+  background-color: #DB804E;
   border: 3px solid #00A4CCFF;
   
 }
@@ -98,6 +108,7 @@ td img{
   text-align:center;
 }
 
+/* Styling for promotions slides */
 .promos{
   max-width: 1000px;
   position: relative;
@@ -128,6 +139,7 @@ td img{
   to {opacity: 1}
 }
 
+/* Content styling */
 .content a{
     display: table;
     position: relative;
@@ -139,10 +151,11 @@ td img{
 .content{
 	display: block;
 	overflow: auto;
-    background-color: #F95700FF;
+    background-color: #DB804E;
     height: 100vh;
   border: 3px solid #00A4CCFF;
 }
+/* Logo styling */
 #logoOB{
   visibility: visible;
   display:block;
@@ -158,31 +171,39 @@ td img{
 	visibility: hidden;
   	display:none;
 }
+/* footer styling */
 #footer{
     width: 100%;
       border: 5px;
       background-color: #00A4CCFF;
-      color: #F95700FF;
-      border-color: #F95700FF;
+      color: #DB804E;
+      border-color: #DB804E;
 }
 
 #footer a{
-    color: #F95700FF;
+    color: black;
 }
 
+button{
+	background-color: #00A4CCFF;
+  color: black;
+}
+
+/* page info styling */
 #info{
-    background-color: #F95700FF;
+    background-color: #DB804E;
       color: #00A4CCFF;
       width: 100%;
       
 }
-
+/* h2 customization */
 #info h2{
     width: 75%;
       display: block;
       margin: auto;
       text-align: center;
 }
+/*Display styling */
 .row {
   display: flex;
 }
@@ -192,6 +213,7 @@ td img{
   padding: 3px;
 }
 
+/* Cart button styles */
 .add2cart {
     background-color:#44c767;
     border-radius:23px;

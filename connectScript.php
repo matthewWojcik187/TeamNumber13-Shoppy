@@ -1,4 +1,5 @@
 <?php
+//Database login 
 $servername = "localhost";
 $username = "wojcikm_Shoppy";
 $password = "Shoppy123";
