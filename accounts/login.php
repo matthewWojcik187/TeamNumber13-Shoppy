@@ -74,7 +74,7 @@
     <link id="OB" rel="stylesheet" type="text/css" href="../Shoppy.css">
     <link id="RG" rel="stylesheet alternate" type="text/css" href="../Shoppy2.css">
     <link id="PP" rel="stylesheet alternate" type="text/css" href="../Shoppy3.css">
-    <link rel="stylesheet" type="text/css" href="ShoppyLogin.css">>
+    <link rel="stylesheet" type="text/css" href="ShoppyLogin.css">
     
     
     </head>
@@ -83,9 +83,9 @@
          <div class="jumbotron">
   			<div class="container text-center">
       			<div id = "title">
-                    <img id="logoOB" src="../Logo.png" onmouseenter="src='../Logo2.png'" onmouseleave="src='../Logo.png'" onclick="window.location.href='../Shoppy.php'"alt="Shoppy" height="100%">
-                    <img id="logoPP" src="../Shoppy_LogoPP1.png" onmouseenter="src='../Shoppy_LogoPP2.png'" onmouseleave="src='../Shoppy_LogoPP1.png'" onclick="window.location.href='../Shoppy.php'"alt="Shoppy" height="100%">
-                    <img id="logoRG" src="../Shoppy_LogoRG1.png" onmouseenter="src='../Shoppy_LogoRG2.png'" onmouseleave="src='../Shoppy_LogoRG1.png'" onclick="window.location.href='../Shoppy.php'"alt="Shoppy" height="100%">
+                    <img id="logoOB" src="../Logo.png" onmouseenter="src='../Logo2.png'" onmouseleave="src='../Logo.png'" onclick="window.location.href='../Shoppy.php'" alt="Shoppy" style= "height:100%">
+                    <img id="logoPP" src="../Shoppy_LogoPP1.png" onmouseenter="src='../Shoppy_LogoPP2.png'" onmouseleave="src='../Shoppy_LogoPP1.png'" onclick="window.location.href='../Shoppy.php'" alt="Shoppy" style= "height:100%">
+                    <img id="logoRG" src="../Shoppy_LogoRG1.png" onmouseenter="src='../Shoppy_LogoRG2.png'" onmouseleave="src='../Shoppy_LogoRG1.png'" onclick="window.location.href='../Shoppy.php'" alt="Shoppy" style= "height:100%">
     			</div>
         	</div>
         </div>
@@ -117,7 +117,7 @@
 	</nav>
       
       <!-- Login form -->
-      <form action="" method="POST">
+      <form method="POST">
          <div class='content'>
   		<div class="container">
     		<h1>Login</h1>
@@ -133,9 +133,9 @@
     		<button type="submit" class="registerbtn" name="submit" id="submit">Login</button>
   			</div>
        
-  			<span class="container signin">
+  			<div class="container signin">
     			<p>Don't have an account yet? <a href="register.php" style="text-align:center">Register</a></p>
-  			</span>
+  			</div>
         	</div>
 </form>
       <footer class="container-fluid text-center">
@@ -150,9 +150,10 @@
           
       </div>
         </footer>
-    </body>
+    
   <!-- Script to update theme of the site to match the current theme -->
   		<?php
 				require '../colourScript.php';
        		?>
+      </body>
 </html>

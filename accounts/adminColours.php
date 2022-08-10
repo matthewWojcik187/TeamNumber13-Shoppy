@@ -34,6 +34,7 @@
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- Stylesheets used -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link id="OB" rel="stylesheet" type="text/css" href="../Shoppy.css">
     <link id="RG" rel="stylesheet alternate" type="text/css" href="../Shoppy2.css">
     <link id="PP" rel="stylesheet alternate" type="text/css" href="../Shoppy3.css">
@@ -81,7 +82,7 @@
 	</nav>
       
        <div class="content">
-      <h1>Admin Site</h1>\
+      <h1>Admin Site</h1>
       <!-- Admin Navigation bar -->
       <div id = "navigation"> 
             <button  onclick="window.location.href = 'adminNewProduct.php'" style="flex-grow: 5">Add new product</button>
