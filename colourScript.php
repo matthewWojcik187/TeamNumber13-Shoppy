@@ -8,7 +8,7 @@
 
         //Check the ID and update the stylesheets
         if($row['ID'] == 1){
-         	echo '<script type="text/JavaScript"> 
+         	echo '<script> 
     		 document.getElementById("OB").rel = "stylesheet";
               document.getElementById("RG").rel = "stylesheet alternate";
               document.getElementById("PP").rel = "stylesheet alternate";
@@ -17,7 +17,7 @@
         
 		//Check the ID and update the stylesheets
         if($row['ID'] == 2){
-         	echo '<script type="text/JavaScript"> 
+         	echo '<script> 
     		 document.getElementById("RG").rel = "stylesheet";
               document.getElementById("PP").rel = "stylesheet alternate";
               document.getElementById("OB").rel = "stylesheet alternate";
@@ -27,7 +27,7 @@
 		//Check the ID and update the stylesheets
         if($row['ID'] == 3){
             
-         	echo '<script type="text/JavaScript"> 
+         	echo '<script> 
     		 document.getElementById("PP").rel = "stylesheet";
               document.getElementById("RG").rel = "stylesheet alternate";
               document.getElementById("OB").rel = "stylesheet alternate";

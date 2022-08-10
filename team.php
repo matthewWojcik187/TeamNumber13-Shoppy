@@ -24,9 +24,9 @@
       <div class="jumbotron">
   		<div class="container text-center">
       		<div id = "title">
-            	<img id="logoOB" src="Logo.png" onmouseenter="src='Logo2.png'" onmouseleave="src='Logo.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
-              	<img id="logoPP" src="Shoppy_LogoPP1.png" onmouseenter="src='Shoppy_LogoPP2.png'" onmouseleave="src='Shoppy_LogoPP1.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
-              	<img id="logoRG" src="Shoppy_LogoRG1.png" onmouseenter="src='Shoppy_LogoRG2.png'" onmouseleave="src='Shoppy_LogoRG1.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
+            	<img id="logoOB" src="Logo.png" onmouseenter="src='Logo2.png'" onmouseleave="src='Logo.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
+              <img id="logoPP" src="Shoppy_LogoPP1.png" onmouseenter="src='Shoppy_LogoPP2.png'" onmouseleave="src='Shoppy_LogoPP1.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
+              <img id="logoRG" src="Shoppy_LogoRG1.png" onmouseenter="src='Shoppy_LogoRG2.png'" onmouseleave="src='Shoppy_LogoRG1.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
     		</div>
         </div>
       </div>
@@ -71,7 +71,7 @@
           <table>
   <tr>
     <td>
-    	<img src="Michael.jpg" height="300px" width="250px">
+    	<img src="Michael.jpg" alt="Michael Schneider" style = "height:300px; width:250px">
     </td>
     <td>
     <h1 style="width: 50%">Michael Schneider</h1>
@@ -89,7 +89,7 @@
           <table>
   <tr >
     <td>
-    	<img src="Woj.jpg" height="300px" width="250px">
+    	<img src="Woj.jpg" alt="Matthew Wojcik" style= "height:300px; width:250px">>
     </td>
     <td>
     <h1>Matthew Wojcik</h1>
@@ -106,7 +106,7 @@ Matthew Wojcik is a computer science major with a minor in mathematics. He's the
           <table>
   <tr >
     <td>
-    	<img src="Brandon.jpg" height="300px" width="250px">
+    	<img src="Brandon.jpg" alt="Brandon Mailloux" style = "height:300px; width:250px">>
     </td>
     <td>
     <h1>Brandon Mailloux</h1>
@@ -122,7 +122,7 @@ Brandon Mailloux is a computer science major with a minor in mathematics. He's o
           <table>
   <tr>
     <td>
-    		<img src="Smitty.jpg" height="300px" width="250px">
+    		<img src="Smitty.jpg" alt="Matthew Smith" style = "height:300px; width:250px">>
     </td>
     <td>
     <h1>Matthew Smith</h1>

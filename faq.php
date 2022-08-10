@@ -23,9 +23,9 @@
       <div class="jumbotron">
   		<div class="container text-center">
       		<div id = "title">
-            	<img id="logoOB" src="Logo.png" onmouseenter="src='Logo2.png'" onmouseleave="src='Logo.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
-              	<img id="logoPP" src="Shoppy_LogoPP1.png" onmouseenter="src='Shoppy_LogoPP2.png'" onmouseleave="src='Shoppy_LogoPP1.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
-              	<img id="logoRG" src="Shoppy_LogoRG1.png" onmouseenter="src='Shoppy_LogoRG2.png'" onmouseleave="src='Shoppy_LogoRG1.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
+            	<img id="logoOB" src="Logo.png" onmouseenter="src='Logo2.png'" onmouseleave="src='Logo.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
+              <img id="logoPP" src="Shoppy_LogoPP1.png" onmouseenter="src='Shoppy_LogoPP2.png'" onmouseleave="src='Shoppy_LogoPP1.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
+              <img id="logoRG" src="Shoppy_LogoRG1.png" onmouseenter="src='Shoppy_LogoRG2.png'" onmouseleave="src='Shoppy_LogoRG1.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
     		</div>
         </div>
       </div>
@@ -60,14 +60,14 @@
       <!-- FAQ page info -->
       <div id = "productInfo"><br>
         <h1>Frequently Asked Questions</h1><br>
-        <h2 id = "FaqQuestion">When will I receive my order?</h2>
+        <h2>When will I receive my order?</h2>
         <div>This is dependent upon your shipping address. We ship all products out of Windsor, Ontario, Canada, so shipment time can depend on your distance from our warehouse. Importing through foreign customs can also add to shipping times.</div><br>
-        <h2 id = "FaqQuestion">Why should I still buy DVD's?</h2>
+        <h2>Why should I still buy DVD's?</h2>
         <div>DVD's are still a great option for many people! If you don't have a reliable enough internet connection to watch movies on streaming sites or don't want to subscribe to 5 different sites just to find a movie, buying physical DVD's of your favourite movies is a great solution that you will have forever!</div><br>
-        <h2 id = "FaqQuestion">My favourite movie isn't available. When will you add more?</h2>
+        <h2>My favourite movie isn't available. When will you add more?</h2>
         <div>We add new products to our collection almost everyday! If there are any specific movies you want us to offer consider sending an email to suggestions@shoppy.com</div><br>
              
-  		<iframe width="1280" height="720" src="https://www.youtube.com/embed/EIoAZs5sBO0" title="Shoppy Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  		<iframe width="1280" height="720" src="https://www.youtube.com/embed/EIoAZs5sBO0" title="Shoppy Demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
        <!-- Footer div -->
       <footer class="container-fluid text-center">

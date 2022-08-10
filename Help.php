@@ -23,9 +23,9 @@
         <div class="jumbotron">
   			<div class="container text-center">
       			<div id = "title">
-                  <img id="logoOB" src="Logo.png" onmouseenter="src='Logo2.png'" onmouseleave="src='Logo.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
-                  <img id="logoPP" src="Shoppy_LogoPP1.png" onmouseenter="src='Shoppy_LogoPP2.png'" onmouseleave="src='Shoppy_LogoPP1.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
-                  <img id="logoRG" src="Shoppy_LogoRG1.png" onmouseenter="src='Shoppy_LogoRG2.png'" onmouseleave="src='Shoppy_LogoRG1.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
+                  <img id="logoOB" src="Logo.png" onmouseenter="src='Logo2.png'" onmouseleave="src='Logo.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
+              <img id="logoPP" src="Shoppy_LogoPP1.png" onmouseenter="src='Shoppy_LogoPP2.png'" onmouseleave="src='Shoppy_LogoPP1.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
+              <img id="logoRG" src="Shoppy_LogoRG1.png" onmouseenter="src='Shoppy_LogoRG2.png'" onmouseleave="src='Shoppy_LogoRG1.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
     			</div>
         	</div>
         </div>
@@ -59,15 +59,15 @@
       <!-- Page info -->
       <div id = "productInfo"><br>
         <h1>User Help Guide</h1><br>
-        <h2 id = "FaqQuestion">How to make an account</h2>
+        <h2 >How to make an account</h2>
         <div>Click the account icon in the top left corner. Here you can log in to an existing account with a username and password. To make a new account select "register" and enter a username, email, and password.</div><br>
-        <h2 id = "FaqQuestion">How to find movies</h2>
+        <h2>How to find movies</h2>
         <div>Use the navigation bar under the Shoppy logo and click the Products tab. This is where we post all of the products we currently offer.</div><br>
-        <h2 id = "FaqQuestion">How to make a purchase</h2>
+        <h2>How to make a purchase</h2>
         <div>From the products page, when you click the name of a movie you want, you will be directed to that movie's page. To add a product to the cart, you must first be logged in to an account. Click on the account icon in the top left to log in or register a new account. Then, go back to the product page, enter the quantity you would like to purchase and click the add to cart button.</div><br>
-        <h2 id = "FaqQuestion">How to see our promotions</h2>
+        <h2>How to see our promotions</h2>
         <div>Using the top navigation bar, click on the promotions tab. Here, all of the current promotions will cycle through the images.</div><br>
-        <h2 id = "FaqQuestion">How to learn more about Shoppy</h2>
+        <h2>How to learn more about Shoppy</h2>
         <div>Using the top navigation bar, click on the about us tab. Here, you can choose to read about our company background or the team behind Shoppy.</div><br><br>
              
   		

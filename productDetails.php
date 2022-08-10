@@ -88,9 +88,9 @@
       <div class="jumbotron">
   		<div class="container text-center">
       		<div id = "title">
-            	<img id="logoOB" src="Logo.png" onmouseenter="src='Logo2.png'" onmouseleave="src='Logo.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
-              	<img id="logoPP" src="Shoppy_LogoPP1.png" onmouseenter="src='Shoppy_LogoPP2.png'" onmouseleave="src='Shoppy_LogoPP1.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
-              	<img id="logoRG" src="Shoppy_LogoRG1.png" onmouseenter="src='Shoppy_LogoRG2.png'" onmouseleave="src='Shoppy_LogoRG1.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
+            	<img id="logoOB" src="Logo.png" onmouseenter="src='Logo2.png'" onmouseleave="src='Logo.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
+              <img id="logoPP" src="Shoppy_LogoPP1.png" onmouseenter="src='Shoppy_LogoPP2.png'" onmouseleave="src='Shoppy_LogoPP1.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
+              <img id="logoRG" src="Shoppy_LogoRG1.png" onmouseenter="src='Shoppy_LogoRG2.png'" onmouseleave="src='Shoppy_LogoRG1.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
     		</div>
         </div>
       </div>
@@ -125,13 +125,13 @@
        <!-- Display all the individual product info for that page -->
       	<div id="productInfo">
           <h1><?php echo $row['Name'] ?></h1>
-	      <img src='images/<?php echo $row['img']?>' id='moviePoster' alt='moviePoster' width="400px" height="400px"> 
+	      <img src='images/<?php echo $row['img']?>' id='moviePoster' alt='moviePoster' style="width:400px ;height:400px"> 
           <p>Rating: <?php echo $row['Rating'] ?> </p>
           <p> Genre: <?php echo $row['Genre'] ?></p>
           <p>Description: <?php echo $row['Description'] ?></p>
           <p>Price: $<?php echo $row['Price'] ?></p>
           <p>In Stock: <?php echo $row['Quantity'] ?></p>
-		  <form method="POST" action="">
+		  <form method="POST">
           	<div class="cart-action"><input type="text" class="product-quantity" name="quantity" value="1" size="1" />  <input type="submit" name ="add2cart" value="Add to Cart" id="add2cart" class="add2cart" /></div>
           </form>
       </div>

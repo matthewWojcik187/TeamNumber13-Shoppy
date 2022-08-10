@@ -31,9 +31,9 @@
       <div class="jumbotron">
   		<div class="container text-center">
       		<div id = "title">
-            	<img id="logoOB" src="Logo.png" onmouseenter="src='Logo2.png'" onmouseleave="src='Logo.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
-              	<img id="logoPP" src="Shoppy_LogoPP1.png" onmouseenter="src='Shoppy_LogoPP2.png'" onmouseleave="src='Shoppy_LogoPP1.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
-              	<img id="logoRG" src="Shoppy_LogoRG1.png" onmouseenter="src='Shoppy_LogoRG2.png'" onmouseleave="src='Shoppy_LogoRG1.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
+            	<img id="logoOB" src="Logo.png" onmouseenter="src='Logo2.png'" onmouseleave="src='Logo.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
+              <img id="logoPP" src="Shoppy_LogoPP1.png" onmouseenter="src='Shoppy_LogoPP2.png'" onmouseleave="src='Shoppy_LogoPP1.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
+              <img id="logoRG" src="Shoppy_LogoRG1.png" onmouseenter="src='Shoppy_LogoRG2.png'" onmouseleave="src='Shoppy_LogoRG1.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
     		</div>
         </div>
       </div>
@@ -70,7 +70,7 @@
           <?php
           	// Display a table of items for the user to selection from.
           	$size = 40;
-          	echo '<table  width="100%">';
+          	echo '<table  style="width:100%">';
 			
           	$row_count = 0;
           	if(mysqli_num_rows($result) > 0) {
@@ -79,7 +79,7 @@
                 $row_count++;
                 if ($row_count==1) echo "<tr>";
                 
-                echo"<td width='33%'><img src=images/$image_source id='moviePoster' alt='moviePoster' width='$size%' height='auto'><br><br> 
+                echo"<td style='width:33%'><img src=images/$image_source alt='moviePoster' style='width:$size%;height:auto'><br><br> 
                 
                 <a href='productDetails.php?ID={$row['Name']}' >{$row["Name"]}</a><br></td>";
                 

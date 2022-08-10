@@ -23,9 +23,9 @@
         <div class="jumbotron">
   			<div class="container text-center">
       			<div id = "title">
-            		<img id="logoOB" src="Logo.png" onmouseenter="src='Logo2.png'" onmouseleave="src='Logo.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
-              		<img id="logoPP" src="Shoppy_LogoPP1.png" onmouseenter="src='Shoppy_LogoPP2.png'" onmouseleave="src='Shoppy_LogoPP1.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
-              		<img id="logoRG" src="Shoppy_LogoRG1.png" onmouseenter="src='Shoppy_LogoRG2.png'" onmouseleave="src='Shoppy_LogoRG1.png'" onclick="window.location.href='Shoppy.php'"alt="Shoppy" height="100%">
+            		<img id="logoOB" src="Logo.png" onmouseenter="src='Logo2.png'" onmouseleave="src='Logo.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
+              <img id="logoPP" src="Shoppy_LogoPP1.png" onmouseenter="src='Shoppy_LogoPP2.png'" onmouseleave="src='Shoppy_LogoPP1.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
+              <img id="logoRG" src="Shoppy_LogoRG1.png" onmouseenter="src='Shoppy_LogoRG2.png'" onmouseleave="src='Shoppy_LogoRG1.png'" onclick="window.location.href='Shoppy.php'" alt="Shoppy" style= "height:100%">
     			</div>
         	</div>
         </div>
@@ -88,7 +88,7 @@ marker.setMap(map);
 </script>
 
  	  <!-- Javascript to hold the map api key -->
-	  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiRzMaTIniEJGEkIMail0I7Nl4Q0PrR1w&callback=myMap"></script>
+	  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA18gp4sTh8_pgfhLETmARe9gHlPmbzcb4&callback=myMap"></script>
       <!-- Script to update theme of the site to match the current theme -->
       <?php
 			require 'colourScript.php';
